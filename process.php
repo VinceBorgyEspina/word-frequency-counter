@@ -90,7 +90,7 @@
 
     $arr = countWords(textToArray($txt));
 
-    // Sorting the array by the frequency
+    // Sorting array by  frequency
     function sortByCount($a, $b) {
         return $b['count'] - $a['count'];
     }
